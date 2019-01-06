@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 const Root = () => {
-  return <div>Lyrical</div>
+  return <h1>Lyrical</h1>;
 };
 
-ReactDOM.render(
-  <Root />,
-  document.querySelector('#root')
-);
+ReactDOM.render(<Root />, document.querySelector("#root"));
