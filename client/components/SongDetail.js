@@ -10,7 +10,6 @@ export class SongDetail extends Component {
   render() {
     const { song } = this.props.data;
     if (!song) return <span>Loading...</span>;
-    console.log(song);
     return (
       <div>
         <Link to="/">Back</Link>
